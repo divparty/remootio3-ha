@@ -1,0 +1,17 @@
+{
+  "domain": "remootio",
+  "name": "Remootio Smart Garage Door Opener",
+  "integration_type": "device",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/remootio",
+  "issue_tracker": "https://github.com/peaceduck/remootio/issues",
+  "version": "2.0.2",
+  "requirements": ["aioremootio>=2.0.0"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": ["@peaceduck"],
+  "iot_class": "local_push",
+  "loggers": ["aioremootio"]
+}
